@@ -1,0 +1,11 @@
+START HERE — NO PYTHON REQUIRED ON THE PC WHERE YOU INSTALL THE FINAL APP
+
+This package builds a real Windows installer using GitHub's Windows build runner.
+
+1) Upload all files/folders in this package to a private GitHub repository.
+2) Keep .github/workflows/build-windows-installer.yml at that exact location.
+3) In GitHub, open Actions > Build Windows Installer > Run workflow.
+4) After it succeeds, download the artifact RM-CutPlan-Studio-Windows-Installer.
+5) Extract the artifact ZIP and run RM_CutPlan_Studio_Setup.exe.
+
+This ZIP itself is NOT the finished Setup.exe. It is the build package/workflow. The final installed app bundles its runtime, so Python is not needed on the target PC.
